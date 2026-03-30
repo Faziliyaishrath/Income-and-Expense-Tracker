@@ -17,7 +17,7 @@ Database: MySQL (SQLAlchemy)
 pip install flask flask_sqlalchemy flask_cors
 python app.py
 
-Open: http://127.0.0.1:5000
+Open: https://faziliyaishr.pythonanywhere.com/
 
 👩‍💻 Developer
 
