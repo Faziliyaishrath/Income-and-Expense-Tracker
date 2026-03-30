@@ -12,7 +12,7 @@ Data export (CSV/JSON)
 🛠️ Tech Stack
 Frontend: HTML, CSS, JavaScript
 Backend: Flask (Python)
-Database: SQLite (SQLAlchemy)
+Database: MySQL (SQLAlchemy)
 ▶️ Run Project
 pip install flask flask_sqlalchemy flask_cors
 python app.py
