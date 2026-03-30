@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8fafc;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.login-card {
+    background: white;
+    border-radius: 10px;
+    padding: 32px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-header h2 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.login-header p {
+    color: #64748b;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.input-wrapper input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    outline: none;
+}
+
+.input-wrapper label {
+    position: absolute;
+    left: 14px;
+    top: 14px;
+    color: #64748b;
+    transition: 0.3s;
+    background: white;
+    padding: 0 4px;
+}
+
+.input-wrapper input:focus + label,
+.input-wrapper input:valid + label {
+    top: -10px;
+    font-size: 12px;
+    color: #3b82f6;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.toggle-icon {
+    font-size: 16px;
+    line-height: 1;
+    color: #64748b;
+}
+
+.login-btn {
+    width: 100%;
+    background: #3b82f6;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+}
+
+.login-btn:hover {
+    background: #2563eb;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-link a {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+
+.success-message {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.success-message.show {
+    display: block;
+}
+
+.success-icon {
+    font-size: 28px;
+    color: green;
+}
